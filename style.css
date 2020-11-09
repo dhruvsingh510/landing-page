@@ -1,0 +1,240 @@
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #6A7080;
+}
+
+.offset:before {
+	display: block;
+	content: "";
+	height: 3.6rem;
+	margin-top: -3.6rem;
+}
+
+/*Navigation*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0,0,0,0.6)!important;
+}
+
+.navbar-brand img {
+  height: 1rem;
+} 
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FC0254;
+}
+
+/*Landing Page*/
+.home-inner {
+  background-image: url(img/landing1.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%; 
+  z-index: 1;
+  color: white;
+  text-transform: uppercase; 
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700px;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .4rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .1rem black;
+  padding-bottom: 1.6rem;
+}
+
+.caption .lead {
+	font-weight: 600;
+}
+
+.caption a,
+.caption a:hover {
+	color: #FC0254;
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 3.125rem;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white!important;
+  margin: 1.5rem;
+  background-color: #FC0254;
+  border-color: #FC0254;
+}
+
+.btn-lg:hover{
+  background-color: #E3004A;
+  border-color: #E3004A;
+}
+
+.sol {
+	color: #FC0254;
+}
+
+/*Features Section*/
+.narrow {
+  width: 80%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.container {
+	max-width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	margin-bottom: 0;
+}
+
+.heading {
+	text-align: center;
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+	font-weight: 700;
+	margin-top: 1.5rem;
+}
+
+.bg-light .heading, .bg-light h3 {
+	color: #0A183D;
+}
+
+.heading-underline {
+	max-width: 3rem;
+	margin: auto;
+	border: 2px solid #FC0254; 
+}
+
+.fix-icon {
+  margin: 2rem 0;
+}
+
+.fa-play-circle, .fa-book-open, .fa-wpforms {
+	color: #FC0254;
+}
+
+/*Philosphy Section*/
+.fixed {
+	background-image: url(img/landing2.jpg);
+	z-index: -1;
+}
+
+.fixed-background {
+	background-color: rgba(0,0,0,0.7);
+	padding: 7rem 2rem;
+}
+
+.fixed-background .heading {
+	color: white;
+}
+
+.fixed-background blockquote {
+	color: white;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+}
+
+.fa-quote-left, .fa-quote-right {
+	margin: .4rem;
+	font-size: 2rem;
+	color: #FC0254;
+}
+
+/*Resource Section*/
+.dark {
+	background-color: #0A183D;
+	color: white;
+}
+
+.fa-code, .fa-bold, .fa-css3 {
+	color: #FC0254;
+} 
+
+/*Contributors Section*/
+#contributors img {
+	border-radius: 50%;
+	height: 15rem;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
+
+/*Footer*/
+footer {
+	background-color: #0A183D;
+	color: white;
+	padding: 4rem 0  4rem;
+	margin-top: 1rem;
+}
+
+
+.footerLogo {
+	padding: 3.5rem 1.5rem;
+}
+
+.footerLogo span {
+	font-size: 3rem;
+	font-weight: 900;
+	letter-spacing: .4rem
+	margin: 0;
+	padding: 0;
+}
+
+.fa-instagram, .fa-facebook-square, .fa-twitter-square {
+	color: white;
+	font-size: 1.5rem;
+	margin: .8rem .5rem;
+} 
+
+.fa-instagram:hover, .fa-facebook-square:hover, .fa-twitter-square:hover {
+	color: #FC0254;
+}
+
+.socket {
+	border-top: .1rem solid #091d52;
+	margin: 4rem 0 2rem;
+	width: 100%
+}
+
+/*Media Queries*/
+@media (max-width: 767px) {
+	.caption h1 {
+	  font-size: 2.8rem;  
+	  letter-spacing: .18rem;
+	  padding-bottom: .5rem;
+	}
+
+	.caption h3 {
+	  font-size: 1.6rem;
+	  padding-bottom: 1.2rem;
+	}
+
+	.btn-lg{
+	  padding: .6rem 1.2rem;
+	  font-size: 1rem;
+	}
+}
